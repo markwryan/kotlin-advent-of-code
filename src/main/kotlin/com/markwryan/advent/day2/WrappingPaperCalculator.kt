@@ -5,7 +5,7 @@ import java.io.FileInputStream
 import java.io.InputStreamReader
 
 /**
- * Day 2 Ansers for Advent of Code
+ * Day 2 Answers for Advent of Code
  */
 val INPUT_FILE = "src/main/kotlin/com/markwryan/advent/day2/input.txt"
 
