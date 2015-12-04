@@ -1,8 +1,6 @@
 package com.markwryan.advent.day2
 
 import com.markwryan.advent.util.InputUtils
-import java.io.FileInputStream
-import java.io.InputStreamReader
 
 /**
  * Day 2 Answers for Advent of Code
@@ -24,7 +22,7 @@ fun main(args: Array<String>) {
     println("Ribbon: " + ribbonTotal)
 }
 
-fun cubicVolume(length: Int, width: Int, height: Int) :Int {
+fun cubicVolume(length: Int, width: Int, height: Int): Int {
     return length * width * height
 }
 
