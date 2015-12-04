@@ -9,7 +9,7 @@ import java.io.InputStreamReader
  */
 val INPUT_FILE = "src/main/kotlin/com/markwryan/advent/day2/input.txt"
 
-public fun main(args: Array<String>) {
+fun main(args: Array<String>) {
     val text = InputUtils().getText(INPUT_FILE)
     var wrappingTotal = 0
     var ribbonTotal = 0

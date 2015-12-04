@@ -11,7 +11,7 @@ import java.io.InputStreamReader
  */
 val INPUT_FILE = "src/main/kotlin/com/markwryan/advent/day1/input.txt"
 
-public fun main(args: Array<String>) {
+fun main(args: Array<String>) {
     val text = InputUtils().getText(INPUT_FILE).readText()
     var count: Int = 0
     var basement: Int = -1
