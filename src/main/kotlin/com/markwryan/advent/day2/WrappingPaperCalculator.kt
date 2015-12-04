@@ -14,7 +14,7 @@ fun main(args: Array<String>) {
     text.forEachLine({
         //sorted, so 'length' & 'width' are always the smallest sides
         val (length, width, height) = it.split("x").map { it -> it.toInt() }.sort()
-        wrappingTotal += surfaceArea(length, width, height) + (extraPaper(length, width))
+        wrappingTotal += surfaceArea(length, width, height) + extraPaper(length, width)
         ribbonTotal += perimeterOfSmallestSide(length, width) + cubicVolume(length, width, height)
     })
 
